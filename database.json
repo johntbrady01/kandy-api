@@ -1,0 +1,361 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Olive Garden",
+      "address": "1 American Italian Food Street",
+      "squareFootage": 11000
+    },
+    {
+      "id": 2,
+      "name": "Target",
+      "address": "13 Target Road",
+      "squareFootage": 130000
+    },
+    {
+      "id": 3,
+      "name": "Toy's R Us",
+      "address": "1 Toy-Store Heaven",
+      "squareFootage": 20000
+    },
+    {
+      "id": 4,
+      "name": "Sperry's",
+      "address": "Somewhere on Caroline Street",
+      "squareFootage": 5000
+    },
+    {
+      "id": 5,
+      "name": "Morrissey's",
+      "address": "Somewhere on Broadway",
+      "squareFootage": 10000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 2,
+      "name": "Dan",
+      "email": "dan@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "name": "Bobby",
+      "email": "bobby@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Niko",
+      "email": "niko@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "name": "Jackson",
+      "email": "jackson@gmail.com",
+      "isStaff": false
+    },
+    {
+      "name": "Johanna",
+      "email": "johanna@gmail.com",
+      "isStaff": true,
+      "id": 6
+    },
+    {
+      "name": "Emily",
+      "email": "emily@gmail.com",
+      "isStaff": false,
+      "id": 8
+    },
+    {
+      "name": "Spongebob",
+      "email": "bob@gmail.com",
+      "isStaff": true,
+      "id": 9
+    },
+    {
+      "name": "Patrick",
+      "email": "pat@gmail.com",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "name": "Scooby-doo",
+      "email": "scoob@gmail.com",
+      "isStaff": true,
+      "id": 11
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "usersId": 1,
+      "startDate": "Januray 7th",
+      "payRate": 500,
+      "locationsId": 1
+    },
+    {
+      "id": 2,
+      "usersId": 2,
+      "startDate": "Januray 7th",
+      "payRate": 300,
+      "locationsId": 2
+    },
+    {
+      "id": 3,
+      "usersId": 6,
+      "startDate": "April 1st",
+      "payRate": 150,
+      "locationsId": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "usersId": 3,
+      "loyaltyNumber": 111
+    },
+    {
+      "loyaltyNumber": 221,
+      "usersId": 4,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "usersId": 5,
+      "loyaltyNumber": 333
+    },
+    {
+      "id": 4,
+      "usersId": 8,
+      "loyaltyNumber": 444
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Reese's Egg's",
+      "productTypesId": 1,
+      "price": 5
+    },
+    {
+      "id": 2,
+      "name": "Kit-Kats",
+      "productTypesId": 1,
+      "price": 5
+    },
+    {
+      "id": 3,
+      "name": "Peanut M&M's",
+      "productTypesId": 1,
+      "price": 5
+    },
+    {
+      "id": 4,
+      "name": "Sour Skittles",
+      "productTypesId": 1,
+      "price": 5
+    },
+    {
+      "id": 5,
+      "name": "Sour Patch Kid's",
+      "productTypesId": 1,
+      "price": 5
+    },
+    {
+      "id": 6,
+      "name": "Hubba Bubba",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 7,
+      "name": "Trident",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 8,
+      "name": "Orbit",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 9,
+      "name": "Juicy Fruit",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 10,
+      "name": "5",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 11,
+      "name": "Extra",
+      "productTypesId": 2,
+      "price": 2
+    },
+    {
+      "id": 12,
+      "name": "Chicken Carbonara",
+      "productTypesId": 3,
+      "price": 20
+    },
+    {
+      "id": 13,
+      "name": "Steak Dinner",
+      "productTypesId": 3,
+      "price": 25
+    },
+    {
+      "id": 14,
+      "name": "Sushi",
+      "productTypesId": 3,
+      "price": 15
+    },
+    {
+      "id": 15,
+      "name": "Hibachi",
+      "productTypesId": 3,
+      "price": 25
+    },
+    {
+      "id": 16,
+      "name": "Burrito Bowl",
+      "productTypesId": 3,
+      "price": 15
+    },
+    {
+      "id": 17,
+      "name": "Pineapple Chicken",
+      "productTypesId": 3,
+      "price": 30
+    },
+    {
+      "id": 18,
+      "name": "Penne with Marinara",
+      "productTypesId": 3,
+      "price": 20
+    },
+    {
+      "id": 19,
+      "name": "Pizza",
+      "productTypesId": 3,
+      "price": 10
+    },
+    {
+      "id": 20,
+      "name": "Cheese Burger",
+      "productTypesId": 3,
+      "price": 10
+    },
+    {
+      "id": 21,
+      "name": "Orange Juice",
+      "productTypesId": 4,
+      "price": 5
+    },
+    {
+      "id": 22,
+      "name": "Almond Milk",
+      "productTypesId": 4,
+      "price": 5
+    },
+    {
+      "id": 23,
+      "name": "Hot Coffee",
+      "productTypesId": 4,
+      "price": 5
+    },
+    {
+      "id": 24,
+      "name": "Raspberry Lemonade",
+      "productTypesId": 4,
+      "price": 5
+    },
+    {
+      "id": 25,
+      "name": "Shirley Temples",
+      "productTypesId": 4,
+      "price": 5
+    },
+    {
+      "id": 26,
+      "name": "Water",
+      "productTypesId": 4,
+      "price": 0
+    },
+    {
+      "name": "Angry Orchard",
+      "productTypesId": 4,
+      "price": 6,
+      "id": 27
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Dinners"
+    },
+    {
+      "id": 4,
+      "type": "Drinks"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customersId": 2,
+      "productsId": 5,
+      "productAmount": 5
+    },
+    {
+      "id": 2,
+      "customersId": 3,
+      "productsId": 13,
+      "productAmount": 2
+    },
+    {
+      "customersId": 1,
+      "productsId": 22,
+      "productAmount": 1,
+      "id": 3
+    },
+    {
+      "customersId": 1,
+      "productsId": 2,
+      "productAmount": 4,
+      "id": 4
+    },
+    {
+      "customersId": 1,
+      "productsId": 24,
+      "productAmount": 6,
+      "id": 5
+    },
+    {
+      "customersId": 3,
+      "productsId": 4,
+      "productAmount": 1,
+      "id": 6
+    }
+  ]
+}
